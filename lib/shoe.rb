@@ -10,7 +10,7 @@ BRANDS = []
   def brand= (brand)
     @brand = brand
     if brand != BRANDS.detect
-      brand << BRANDS
+      BRANDS << brand
     end
   end
   def size= (size)
