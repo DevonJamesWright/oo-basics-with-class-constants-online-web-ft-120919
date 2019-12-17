@@ -11,6 +11,7 @@ BRANDS = []
     @brand = brand
     if brand != BRANDS.detect
       brand << BRANDS
+    end
   end
   def size= (size)
     @size = size
